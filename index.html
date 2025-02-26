@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro de Séries</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Cadastro de Séries</h1>
+
+    <form id="formCadastro">
+        <input type="text" id="nomeSerie" placeholder="Nome da Série" required>
+        <input type="text" id="atorPrincipal" placeholder="Ator Principal" required>
+        <input type="number" id="nota" placeholder="nota de zero a dez" required>
+        <input type="text" id="genero" placeholder="Gênero" required>
+        <button type="submit">Adicionar Série</button>
+    </form>
+
+    <h2>Séries Cadastradas</h2>
+    <table id="tabelaCadastro">
+        <thead>
+            <tr>
+                <th>Nome</th>
+                <th>Atores</th>
+                <th>nota de zero a dez</th>
+                <th>Gênero</th>
+                <th>Ações</th>
+            </tr>
+        </thead>
+        <tbody>
+
+        </tbody>
+    </table>
+
+    <script src="script.js"></script>
+</body>
+</html>
+
